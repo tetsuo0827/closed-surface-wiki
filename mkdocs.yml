@@ -1,0 +1,28 @@
+
+site_name: 閉曲面理論Wiki
+site_description: 閉曲面理論に基づく学術百科事典
+site_author: Tetsuo Konno
+theme:
+  name: material
+  language: ja
+  features:
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.highlight
+    - content.code.copy
+markdown_extensions:
+  - toc:
+      permalink: true
+  - footnotes
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.superfences
+
+nav:
+  - ホーム: index.md
+  - 閉曲面理論: 閉曲面理論.md
+  - iĀ構造: iĀ構造.md
+  - 一般絶対性理論: 一般絶対性理論.md
+  - 経済ゲージ場理論: 経済ゲージ場理論.md
